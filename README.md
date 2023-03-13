@@ -15,4 +15,10 @@ To use, run `setup-no-checkin.sh` from the parent git directory (not submodules)
 you want this functionality for. NOTE: If this repo is cloned to a different directory, the 
 path in `setup-no-checkin.sh` will need to be modified.
 
+For example:
+
+* `cd ~`
+* `git clone https://github.com/travisvroman/no-checkin.git`
+* `cd ~/path/to/repository/`
+* `~/no-checkin/setup-nocheckin.sh`
 
