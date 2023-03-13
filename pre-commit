@@ -1,0 +1,6 @@
+#!/bin/sh
+# exit $(git diff -i --diff-filter=d --name-only -G nocheckin | wc -l | awk '{print ($0>0?1:0)}')
+
+echo "" && git grep --cached --line-number "nocheckin" && echo "FOUND nocheckin" && exit 1
+exit 0
+
